@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conversión de Temperatura"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/et_temperatura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Introduce una temperatura"/>
+
+        <Spinner
+            android:id="@+id/sp_unidad_origen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/unidades_temperatura"
+            android:prompt="@string/selecciona_unidad_origen_t"/>
+
+        <Spinner
+            android:id="@+id/sp_unidad_destino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/unidades_temperatura"
+            android:prompt="@string/selecciona_unidad_destino_t"/>
+
+        <Button
+            android:id="@+id/btn_convertir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convertir"
+            android:layout_gravity="center"
+            android:onClick="convertirTemperatura"/>
+
+        <TextView
+            android:id="@+id/tv_resultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

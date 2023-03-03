@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_longitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/longitud"/>
+
+    <Button
+        android:id="@+id/btn_peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/peso"
+        android:onClick="abrirActividadPeso"/>
+
+    <Button
+        android:id="@+id/btn_volumen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/volumen"
+        android:onClick="abrirActividadVolumen"/>
+
+    <Button
+        android:id="@+id/btn_temperatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/temperatura"
+        android:onClick="abrirActividadTemperatura"/>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Conversor de unidades</string>
+    <string name="longitud">Conversión de Longitud</string>
+    <string name="selecciona_unidad_origen">Selecciona una unidad de longitud de origen</string>
+    <string name="selecciona_unidad_destino">Selecciona una unidad de longitud de destino</string>
+    <string-array name="unidades_longitud">
+        <item>Metros</item>
+        <item>Kilómetros</item>
+        <item>Centímetro</item>
+        <item>Pulgada</item>
+    </string-array>
+
+    <string name="peso">Conversión de Pesos</string>
+    <string name="selecciona_unidad_origen_p">Selecciona una unidad de peso de origen</string>
+    <string name="selecciona_unidad_destino_p">Selecciona una unidad de peso de destino</string>
+    <string-array name="unidades_peso">
+        <item>Kilogramos</item>
+        <item>Gramos</item>
+        <item>Onzas</item>
+        <item>Libras</item>
+    </string-array>
+
+    <string name="volumen">Conversión de Volumen</string>
+    <string name="selecciona_unidad_origen_v">Selecciona una unidad de volumen de origen</string>
+    <string name="selecciona_unidad_destino_v">Selecciona una unidad de volumen de destino</string>
+    <string-array name="unidades_volumen">
+        <item>Litros</item>
+        <item>Mililitros</item>
+        <item>Galones</item>
+        <item>Onzas líquidas</item>
+    </string-array>
+
+    <string name="temperatura">Conversión de Temperatura</string>
+    <string name="selecciona_unidad_origen_t">Selecciona una unidad de temperatura de origen</string>
+    <string name="selecciona_unidad_destino_t">Selecciona una unidad de temperatura de destino</string>
+    <string-array name="unidades_temperatura">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+</resources>
